@@ -1,0 +1,78 @@
+/*recently add*/
+
+
+.div-recently-add {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    padding-top: 5rem;
+    /* background: #a6a6a6; */
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 40rem;
+    padding: 1rem;
+    border: 1px solid #1DA1F2;
+    border-radius: 3rem;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card-footer-textbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-main-text {
+    display: flex;
+    gap: 2rem;
+}
+
+.cart:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.price-button {
+    height: 4rem;
+    width: 9rem;
+    border: 1px solid #1DA1F2;
+    border-radius: 10px;
+    background-color: rgb(173, 173, 173);
+}
+
+@media screen and (max-width:666px) {
+    .card {
+        flex-direction: column;
+        width: 20rem;
+
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .card-text {
+
+        gap: 1rem;
+    }
+
+}
