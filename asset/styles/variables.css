@@ -1,0 +1,53 @@
+:root {
+    --blue: #1A4BA0;
+    --dark-blue: #0b2f6e;
+    --green: #1AA039;
+    --grey: #91919C;
+    --dark: #000;
+    --white: #D0D0E3;
+
+    --fz-xxxs: 1.1rem;
+    --fz-xxs: 1.2rem;
+    --fz-xs: 1.3rem;
+    --fz-sm: 1.5rem;
+    --fz-md: 1.6rem;
+    --fz-lg: 1.8rem;
+    --fz-xl: 2rem;
+    --fz-xxl: 22rem;
+    --fz-heading: 4.8rem;
+    --fz-xl-heading: 6.2rem;
+    --fz-xxl-heading: 7rem;
+    --fz-heading-x: 6rem;
+
+    --border-radius: 1.5rem;
+
+
+    --box-shadow: 0 0 12px 5 #a5a5a5;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    background-image: none;
+    padding: 12px;
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  box-shadow: none;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--navy);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+::-webkit-scrollbar-track-piece {
+  border: none;
+}
