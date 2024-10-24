@@ -1,12 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Supratours is a transportation company that's provide many services for companies and passengers">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Supratours is a transportation company that's provide many services for companies and passengers"
+    />
     <title>Supratours</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../asset/styles/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img src="./asset/images/logo/logo.png" alt="logo" />
+      </div>
+      <nav class="navbar">
+        <ul class="navbar__list">
+          <li class="navbar__list-item">
+            <i class="fa-solid fa-globe"></i>
+          </li>
+          <li class="navbar__list-item">
+            <i class="fa-solid fa-cart-shopping"> </i>
+          </li>
+          <li class="navbar__list-item">
+            <i class="fa-solid fa-user"> </i>
+          </li>
+          <li class="navbar__list-item">
+            <i class="fa-solid fa-bars"></i>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="contect_content">
+      <div class="contact__form">
+        <div class="contact__form-title">
+          <h2>Log in</h2>
+        </div>
+        <div class="contact__form-inputs">
+            <form action="">
+
+                <div class="form__input-card">
+                  <label for="contact__email">E-mail</label>
+                  <div class="input__card-row">
+                    <input
+                      type="email"
+                      name="contact__email"
+                      id="contact__email"
+                      placeholder="example@gmail.com"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form__input-card">
+                  <label for="contact__password">Password</label>
+                  <div class="input__card-row">
+                    <input
+                      type="password"
+                      name="contact__password"
+                      id="contact__password"
+                      required
+                    />
+                    <span><i class="fa-solid fa-eye"></i></span>
+                  </div>
+                </div>
+                <div class="input__card-row">
+                  <button type="submit">Log in</button>
+                </div>
+            </form>
+        </div>
+      </div>
+      <div class="contact__bg"></div>
+    </section>
+  </body>
 </html>
