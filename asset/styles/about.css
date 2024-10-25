@@ -368,7 +368,6 @@ header nav {
     width: 86%;
     margin-top: 100px;
     margin-bottom: 100px;
-
   }
   .section-3 h3 {
     font-size: 40px;
@@ -377,25 +376,120 @@ header nav {
     flex-direction: row;
     gap: 70px;
     width: 100%;
-  
   }
   .card-sec-3 {
     width: 100%;
-  
+transition: 0.8s;
     gap: 20px;
-    border-bottom: solid 5px #1a4ba090;
+  border-bottom: none;
   }
   .card-sec-3 img {
-    width: 60%;
-  
-    border: solid 10px #bbc0c7;
+    width: 80%;
+border-radius: 20px;
+border: solid 3px #1a4ba0a8;
     height: auto;
+  
+  }
+  .card-sec-3 img:hover {
+
+border: solid 3px #1a4ba0;
+  
+  
   }
   .countent-card-sec3 {
     width: 60%;
     text-align: center;
     padding: 20px;
     background-color: #bbc0c7;
-    margin-top: -60px;
+    margin-top: -100px;
+    border-radius:20px 20px 0 0 ;
+  }
+  .countent-card-sec3 h4 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .countent-card-sec3 p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  .countent-card-sec3 span {
+    font-size: 20px;
+    gap: 15px;
+  }
+  .section-4-team {
+    width: 86%;
+  }
+  .section-4-team h3 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 50px;
+  }
+  .team-cards {
+    flex-direction: row;
+  }
+  .team-card {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: solid 5px #1a4ba052;
+  }
+  .team-img {
+    width: 400px;
+
+    border-radius: 50%;
+  }
+  .team-img img {
+    border: solid 5px #1a4ba060;
+  }
+  .team-img img:hover {
+    border: solid 5px #1a4ba0;
+  }
+  .team-card h6 {
+    font-size: 30px;
+  }
+  .team-card p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+    color: #494a4b;
+    margin-bottom: 20px;
+  }
+  .sec-sponsors {
+    width: 86%;
+    margin-bottom: 100px;
+    
+  }
+  .logos-sponsors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .sec-sponsors h3 {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 100px;
+  
+  }
+  .logo-sponsor {
+    width: 300px;
+    margin: auto;
+  
+  }
+  .sec-sponsors p {
+    margin-top: 20px;
+    
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
   }
 }
