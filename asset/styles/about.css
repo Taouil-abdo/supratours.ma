@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  width: 100%;
+}
+header {
+  width: 86%;
+  height: 100vh;
+background-image: url(../images/about/backround-phone-1.jpg);
+background-size: cover;
+
+  margin: auto;
+}
+header nav {
+  width: 100%;
+  height: 14vh;
+  background-color: blue;
+}
+.header-countent {
+
+  width: 100%;
+  
+  background-size: cover;
+  border: solid 2px rgba(63, 60, 60, 0.516);
+  overflow: hidden;
+}
+.cards-sec-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: -150px;
+}
+.card {
+  width: 90%;
+  max-width: 350px;
+  height: auto;
+  padding: 20px;
+  background-color: #1a4ba0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: white;
+}
+.card i {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.card h4 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.card p {
+  text-align: center;
+  font-size: 14px;
+}
+.section-2 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.imge-sec-2 {
+  background-image: url(../images/about/about-1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  border-radius: 30px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.about-dv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.about-dv h3 {
+  font-size: 30px;
+  font-weight: 900;
+}
+.about-dv p {
+  font-size: 16px;
+}
+.line {
+  width: 50%;
+  border-top: solid 2px black;
+  margin-top: -20px;
+}
+.icons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.icons i {
+  font-size: 24px;
+}
+.year-23 {
+  background-color: #1774f2;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  color: white;
+  gap: 10px;
+  margin-bottom: -30px;
+}
+.year-23 span {
+  font-size: 50px;
+  font-weight: 900;
+}
+.year-23 p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.section-3 {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.section-3 h3 {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+.cards-sec-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+.card-sec-3 {
+  width: 100%;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.897);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+  gap: 20px;
+}
+.card-sec-3 img {
+  width: 100%;
+  height: auto;
+}
+.countent-card-sec3 {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.countent-card-sec3 h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.countent-card-sec3 p {
+  font-size: 16px;
+}
+.countent-card-sec3 span {
+  font-size: 16px;
+  color: blue;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
