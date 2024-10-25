@@ -1,0 +1,73 @@
+:root {
+    --blue: #1A4BA0;
+    --light-blue: #B7C4DA;
+    --slight: #F7FAFC;
+    --dark-blue: #0b2f6e;
+    --green: #1AA039;
+    --grey: #68686e;
+    --dark: #000;
+    --white: #fff;
+    
+    --fz-xxxs: 1.1rem;
+    --fz-xxs: 1.2rem;
+    --fz-xs: 1.3rem;
+    --fz-sm: 1.5rem;
+    --fz-md: 1.6rem;
+    --fz-lg: 1.8rem;
+    --fz-xl: 2rem;
+    --fz-xxl: 2.5rem;
+    --fz-xxxl: 3rem;
+    --fz-heading: 4.8rem;
+    --fz-xl-heading: 6.2rem;
+    --fz-xxl-heading: 7rem;
+
+    --border-radius: 1.5rem;
+
+
+    --box-shadow: 0 0 12px 2px #a5a5a54a;
+  }
+
+
+  @media (min-width: 900px) {
+    :root {
+      --fz-xxxs: 1.2rem;
+      --fz-xxs: 1.3rem;
+      --fz-xs: 1.4rem;
+      --fz-sm: 1.7rem;
+      --fz-md: 1.7rem;
+      --fz-lg: 1.9rem;
+      --fz-xl: 2.2rem;
+      --fz-xxl: 2.8rem;
+      --fz-xxxl: 3.4rem;
+      --fz-heading: 5.3rem;
+      --fz-xl-heading: 7rem;
+      --fz-xxl-heading: 7rem;
+    }
+}
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    background-image: none;
+    padding: 12px;
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  box-shadow: none;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--navy);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+::-webkit-scrollbar-track-piece {
+  border: none;
+}
