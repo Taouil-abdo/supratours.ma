@@ -1,0 +1,130 @@
+.contact-section {
+    width: 100%;
+    background-color: var(--blue);
+    border-radius: 4rem;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 5rem;
+  }
+  .contact-title-p {
+    width: 90%;
+    padding-bottom: 4rem;
+  }
+  .contact-title-p h1 {
+    font-size: 4rem;
+    line-height: 1.3;
+    color: var(--white);
+  }
+  
+  .contact-info {
+    padding-bottom: 4rem;
+  }
+  
+  .contact-info ul li {
+    line-height: 2;
+    color: var(--white);
+  }
+  .contact-info ul li a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  .contact-info ul li a:hover {
+    color: var(--navy);
+  }
+  .contact-info ul li a span {
+    font-size: 1.9rem;
+  }
+  .contact-info ul li a span:first-child {
+    margin-right: 10px;
+  }
+  
+  .contact-social ul {
+    display: flex;
+  }
+  .contact-social ul li {
+    margin-right: 15px;
+  }
+  .contact-social ul li a i {
+    color: var(--white);
+    font-size: 2.6rem;
+  }
+  .contact-social ul li a i:hover {
+    color: var(--navy);
+  }
+  
+  .contact-inputs {
+    width: 100%;
+    padding: 3rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+  }
+  .inpt-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  .inpt-title h2 {
+    font-size: 3rem;
+    color: var(--blue);
+    font-weight: 500;
+  }
+  .contact-inp-cards form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-inp-cards form input {
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 1.5rem;
+    background-color: #dff0f7;
+    border: none;
+    outline: none;
+    padding-left: 2rem;
+  }
+  .contact-inp-cards form textarea {
+    width: 100%;
+    height: 12rem;
+    margin-bottom: 1.5rem;
+    background-color: #dff0f7;
+    border: none;
+    padding: 2rem;
+    padding-top: 1.5rem;
+    outline: none;
+    resize: none;
+  }
+  .contact-inp-cards form button {
+    width: 100%;
+    height: 5rem;
+    background-color: var(--blue);
+    border: none;
+    outline: none;
+    color: var(--white);
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+  .contact-inp-cards form button:hover {
+    background-color: var(--dark-blue);
+  }
+
+
+  @media (max-width: 600px) {
+  
+    /* CONTACT */
+  
+    .contact-section {
+      padding: 4rem 2rem;
+      border-radius: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+    }
+    .login-picture {
+      display: none;
+    }
+  }
+  
