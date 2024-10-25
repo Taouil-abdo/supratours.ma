@@ -2,358 +2,384 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Supratours is a transportation company that's provide many services for companies and passengers">
-    <title>Supratours</title>
-    <link rel="stylesheet" href="/asset/styles/booking.css">
-    <link rel="stylesheet" href="/asset/styles/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Supratours is a transportation company that's provide many services for companies and passengers">
+  <title>Supratours</title>
+  <link rel="stylesheet" href="/asset/styles/booking.css">
+  <link rel="stylesheet" href="/asset/styles/style.css" />
 
-    <script src="https://kit.fontawesome.com/f01941449c.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/f01941449c.js" crossorigin="anonymous"></script>
+  <style>
+
+    
+  </style>
 
 </head>
 
 <body>
 
-    <header class="header_content">
-        <div class="header__logo">
-          <img src="../asset/images/logo/logo.png" alt="logo" />
+  <header class="header_content">
+    <div class="header__logo">
+      <img src="../asset/images/logo/logo.png" alt="logo" />
+    </div>
+    <nav class="navbar">
+      <ul class="navbar__list">
+        <li class="navbar__list-item">
+          <i class="fa-solid fa-globe"></i>
+        </li>
+        <li class="navbar__list-item">
+          <i class="fa-solid fa-cart-shopping"> </i>
+        </li>
+        <li class="navbar__list-item">
+          <i class="fa-solid fa-user"> </i>
+        </li>
+        <li class="navbar__list-item">
+          <i class="fa-solid fa-bars"></i>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- <hero-search-section> -->
+  <section class="hero-booking my-container">
+    <div class="image ">
+      <div class="h1">
+        <h1 style="font-size: xxx-large;">Your Journey Starts Here – Book Your
+          Bus <br>Trip Today experience</h1>
+        <p style="color: aliceblue;">Luxury travel at budget-friendly prices – choose your route,
+          book your seat, <br> and enjoy the ride.</p>
+      </div>
+      <div>
+        <button class="button-filter my-container">Book Now</button>
+      </div>
+      <div>
+
+      </div>
+    </div>
+  </section>
+  <!-- <end hero-search-section> -->
+
+  <!-- <card-filter-section> -->
+
+  <section class="container-card-booking my-container">
+    <div class="cards-booking my-container">
+      <div class="filtrage-booking my-container">
+        <div class="filter-head my-container">
+          <h2>Filter</h2>
+          <button class="" style="background:none;border: none;">v</button>
         </div>
-        <nav class="navbar">
-          <ul class="navbar__list">
-            <li class="navbar__list-item">
-              <i class="fa-solid fa-globe"></i>
+        <div class="filter-objects my-container">
+          <div class="filter-objects-inputs my-container">
+            <div class="input-filter-booking my-container">
+              <div class="label-input-book my-container">
+                <div class="label-input-booking my-container">
+                  <label for="filter-input-id">Starting Point</label>
+                  <input id="filter-input-id" class="filter-input my-container" type="text"
+                    placeholder="Starting Point">
+                </div>
+                <div class="label-input-booking">
+                  <label for="filter2-input-id">Destination</label>
+                  <input id="filter2-input-id" class="filter-input my-container" type="text" placeholder="Destination">
+                </div>
+              </div>
+            </div>
+            <div class="label-input-book">
+
+              <div class="label-input-booking">
+                <label for="filter2-id">Destination</label>
+                <input id="filter2-id" type="date" class="filter-input my-container" placeholder="Destination">
+              </div>
+              <div class="label-input-booking">
+                <label for="Price">Price</label>
+                <input type="range" class="filter-input my-container">
+              </div>
+            </div>
+          </div>
+          <div class="filter-button">
+            <button id="filter-button" class="button-filter my-container">Filter</button>
+          </div>
+        </div>
+      </div>
+      <!-- end filter section -->
+
+      <div class="card-booking my-container">
+        <!-- sortby div -->
+        <div class="sortby-card my-container">
+          <div class="select-card-booking my-container">
+            <select class="select-card my-container" name="sortby" id="sortby">
+              <option>Sort By</option>
+              <option value="Date">Date</option>
+              <option value="Price">Price</option>
+              <option value="Destination">Destination</option>
+            </select>
+          </div>
+          <div>
+            <button class="button-grid"><i class="fa-solid fa-grip-vertical"></i></button>
+            <button class="button-grid2"><i class="fa-solid fa-list fa-lg"></i></button>
+          </div>
+        </div>
+        <!-- end sortby div -->
+
+        <!-- card-booking -->
+        <div class="div-card-final my-container">
+          <!-- card 1 -->
+          <div class="card-booking pricing-card my-container">
+            <div class="img-card-booking my-container">
+              <img class="img-destination my-container" src="/asset/images/Booking/agadir-dakhla.png"
+                alt="agadir-dakhla">
+            </div>
+            <div class="text-card-desc my-container">
+              <h3>AGADIR - ADDAKHLA</h3>
+              <p>Partez à la découverte des charmes
+                de la perle du Sud Marocain à petit prix !
+              </p>
+            </div>
+            <div class="date-available my-container">
+              <p>24/10/2024</p>
+              <button class="availbale-button my-container">Available</button>
+            </div>
+            <div class="booking-price my-container">
+              <button class="button-filter my-container">Book Now</button>
+              <p>560 DH</p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card-booking pricing-card my-container">
+            <div class="img-card-booking my-container">
+              <img class="img-destination my-container" src="/asset/images/Booking/agadir-dakhla.png" alt="">
+            </div>
+            <div class="text-card-desc my-container">
+              <h3>AGADIR - ADDAKHLA</h3>
+              <p>Partez à la découverte des charmes
+                de la perle du Sud Marocain à petit prix !
+              </p>
+            </div>
+            <div class="date-available my-container">
+              <p>24/10/2024</p>
+              <button class="availbale-button my-container">Available</button>
+            </div>
+            <div class="booking-price my-container">
+              <button class="button-filter my-container">Book Now</button>
+              <p>560 DH</p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card-booking pricing-card my-container">
+            <div class="img-card-booking my-container">
+              <img class="img-destination my-container" src="/asset/images/Booking/agadir-dakhla.png" alt="">
+            </div>
+            <div class="text-card-desc my-container">
+              <h3>AGADIR - ADDAKHLA</h3>
+              <p>Partez à la découverte des charmes
+                de la perle du Sud Marocain à petit prix !
+              </p>
+            </div>
+            <div class="date-available my-container">
+              <p>24/10/2024</p>
+              <button class="availbale-button my-container">Available</button>
+            </div>
+            <div class="booking-price my-container">
+              <button class="button-filter my-container">Book Now</button>
+              <p>560 DH</p>
+            </div>
+          </div>
+        </div>
+        <!-- end-card-booking -->
+      </div>
+    </div>
+  </section>
+
+  <!-- <card-filter-section> -->
+
+  <!-- /* start Recently Added section */ -->
+  <section class="Recently-added-Offer my-container">
+    <div class="carts-Rao my-container">
+      <h2>Exclusive Offers Just for You</h2>
+      <!-- card-booking -->
+      <div class="div-card-final my-container">
+        <!-- card 1 -->
+        <div class="card-booking pricing-card my-container">
+          <div class="img-card-booking my-container">
+            <img class="img-destination my-container" src="/asset/images/Booking/agadir-dakhla.png" alt="">
+          </div>
+          <div class="text-card-desc my-container">
+            <h3>AGADIR - ADDAKHLA</h3>
+            <p>Partez à la découverte des charmes
+              de la perle du Sud Marocain à petit prix !
+            </p>
+          </div>
+          <div class="date-available my-container">
+            <p>24/10/2024</p>
+            <button class="availbale-button my-container">Available</button>
+          </div>
+          <div class="booking-price my-container">
+            <button class="button-filter my-container">Book Now</button>
+            <p>560 DH</p>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card-booking pricing-card my-container">
+          <div class="img-card-booking my-container">
+            <img class="img-destination my-container" src="/asset/images/Booking/agadir-dakhla.png" alt="">
+          </div>
+          <div class="text-card-desc my-container">
+            <h3>AGADIR - ADDAKHLA</h3>
+            <p>Partez à la découverte des charmes
+              de la perle du Sud Marocain à petit prix !
+            </p>
+          </div>
+          <div class="date-available my-container">
+            <p>24/10/2024</p>
+            <button class="availbale-button my-container">Available</button>
+          </div>
+          <div class="booking-price my-container">
+            <button class="button-filter my-container">Book Now</button>
+            <p>560 DH</p>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card-booking pricing-card my-container">
+          <div class="img-card-booking my-container">
+            <img class="img-destination my-container" src="/asset/images/Booking/agadir-dakhla.png" alt="">
+          </div>
+          <div class="text-card-desc my-container">
+            <h3>AGADIR - ADDAKHLA</h3>
+            <p>Partez à la découverte des charmes
+              de la perle du Sud Marocain à petit prix !
+            </p>
+          </div>
+          <div class="date-available my-container">
+            <p>24/10/2024</p>
+            <button class="availbale-button my-container">Available</button>
+          </div>
+          <div class="booking-price my-container">
+            <button class="button-filter my-container">Book Now</button>
+            <p>560 DH</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /* end Recently Added section */ -->
+
+  <div class="review-section">
+    <h2>What Our Customers Say</h2>
+
+    <div class="review-card">
+      <img src="/asset/images/Booking/pictures5.png" alt="User Profile">
+      <div>
+        <p class="name">Johna Doe</p>
+        <div class="stars">★★★★★</div>
+        <p class="review-text">"Amazing service! Everything was handled smoothly and professionally.
+          <br> I would definitely recommend them to anyone looking for reliable transport services."
+        </p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <img src="/asset/images/Booking/pictures5.png" alt="User Profile">
+      <div>
+        <p class="name">Sarah Smith</p>
+        <div class="stars">★★★★☆</div>
+        <p class="review-text">"Great experience overall. The team was responsive and helpful,
+          <br> although the waiting time was a bit longer than expected."
+        </p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <img src="/asset/images/Booking/pictures5.png" alt="User Profile">
+      <div>
+        <p class="name">Nora Brown</p>
+        <div class="stars">★★★★★</div>
+        <p class="review-text">"Top-notch service! I was impressed by the professionalism
+          <br> and punctuality. Highly recommend!"
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- /* start Footer */ -->
+  <footer class="footer_content">
+    <div class="footer__content-top">
+      <div class="footer__newsletter center-col">
+        <div class="footer__newsletter-heading">
+          <h2>News Letter</h2>
+        </div>
+        <div class="footer__newsletter-desc">
+          <p>Subscribe to get latest offers, blog news from us</p>
+        </div>
+        <div class="footer__newsletter-input">
+          <form action="">
+            <input type="search" name="newsletter" id="newsletter" placeholder="Enter your email" required />
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div class="footer__links-part">
+          <h3 class="footer__links-heading">Contact</h3>
+          <ul>
+            <li class="footer__links-item">
+              <a href="mailto:contact@supratours.ma">contact@supratours.ma</a>
             </li>
-            <li class="navbar__list-item">
-              <i class="fa-solid fa-cart-shopping"> </i>
-            </li>
-            <li class="navbar__list-item">
-              <i class="fa-solid fa-user"> </i>
-            </li>
-            <li class="navbar__list-item">
-              <i class="fa-solid fa-bars"></i>
+            <li>
+              <a href="tel:2255">call us: 2255</a>
             </li>
           </ul>
-        </nav>
-      </header>
-    <!-- <hero-search-section> -->
-    <section class="hero-booking my-container">
-        <div class="image ">
-            <div class="h1"  >
-                <h1 style="font-size: xxx-large;">Your Journey Starts Here –  Book Your
-                    Bus <br>Trip Today experience</h1>
-                <p>Luxury travel at budget-friendly prices – choose your route,
-                    book your seat, <br> and enjoy the ride.</p>
-                </div>
-                <div>
-                    <button class="button-filter my-container">Book Now</button>
-                </div>
-            <div>
-
-            </div>
         </div>
-    </section>
-    <!-- <end hero-search-section> -->
-
-    <!-- <card-filter-section> -->
-
-    <section class="container-card-booking my-container" >
-        <div class="cards-booking my-container">
-            <div class="filtrage-booking my-container">
-                <div class="filter-head my-container">
-                    <h2>Filter</h2>
-                    <button class="" style="background:none;border: none;">v</button>
-                </div>
-                <div class="filter-objects my-container">
-                    <div class="filter-objects-inputs my-container">
-                        <div class="input-filter-booking my-container">
-                            <div class="label-input-book my-container">
-                                <div class="label-input-booking my-container">
-                                    <label for="filter-input-id">Starting Point</label>
-                                    <input id="filter-input-id" class="filter-input my-container" type="text"
-                                        placeholder="Starting Point">
-                                </div>
-                                <div class="label-input-booking">
-                                    <label for="filter2-input-id">Destination</label>
-                                    <input id="filter2-input-id" class="filter-input my-container" type="text"
-                                        placeholder="Destination">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="label-input-book">
-
-                            <div class="label-input-booking">
-                                <label for="filter2-id">Destination</label>
-                                <input id="filter2-id" type="date" class="filter-input my-container" placeholder="Destination">
-                            </div>
-                            <div class="label-input-booking">
-                                <label for="Price">Price</label>
-                                <input type="range" class="filter-input my-container">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="filter-button">
-                        <button id="filter-button" class="button-filter my-container">Filter</button>
-                    </div>
-                </div>
-            </div>
-            <!-- end filter section -->
-
-            <div class="card-booking my-container">
-                <!-- sortby div -->
-                <div class="sortby-card my-container">
-                    <div class="select-card-booking my-container">
-                        <select class="select-card my-container" name="sortby" id="sortby">
-                            <option>Sort By</option>
-                            <option value="Date">Date</option>
-                            <option value="Price">Price</option>
-                            <option value="Destination">Destination</option>
-                        </select>
-                    </div>
-                    <div>
-                        <button class="button-grid"><i class="fa-solid fa-grip-vertical"></i></button>
-                        <button class="button-grid2"><i class="fa-solid fa-list fa-lg"></i></button>
-                    </div>
-                </div>
-                <!-- end sortby div -->
-
-                <!-- card-booking -->
-                <div class="div-card-final my-container">
-                    <!-- card 1 -->
-                    <div class="card-booking pricing-card my-container">
-                        <div class="img-card-booking my-container">
-                            <img class="img-destination my-container" src="/asset/images/Booking/agadir-dakhla.png" alt="agadir-dakhla">
-                        </div>
-                        <div class="text-card-desc my-container">
-                            <h3>AGADIR - ADDAKHLA</h3>
-                            <p>Partez à la découverte des charmes
-                                de la perle du Sud Marocain à petit prix !
-                            </p>
-                        </div>
-                        <div class="date-available my-container">
-                            <p>24/10/2024</p>
-                            <button class="availbale-button my-container">Available</button>
-                        </div>
-                        <div class="booking-price my-container">
-                            <button class="button-filter my-container">Book Now</button>
-                            <p>560 DH</p>
-                        </div>
-                    </div>
-                    <!-- card 2 -->
-                    <div class="card-booking pricing-card my-container">
-                        <div class="img-card-booking my-container">
-                            <img class="img-destination my-container" src="/asset/images/Booking/agadir-dakhla.png" alt="">
-                        </div>
-                        <div class="text-card-desc my-container">
-                            <h3>AGADIR - ADDAKHLA</h3>
-                            <p>Partez à la découverte des charmes
-                                de la perle du Sud Marocain à petit prix !
-                            </p>
-                        </div>
-                        <div class="date-available my-container">
-                            <p>24/10/2024</p>
-                            <button class="availbale-button my-container">Available</button>
-                        </div>
-                        <div class="booking-price my-container">
-                            <button class="button-filter my-container">Book Now</button>
-                            <p>560 DH</p>
-                        </div>
-                    </div>
-                    <!-- card 2 -->
-                    <div class="card-booking pricing-card my-container">
-                        <div class="img-card-booking my-container">
-                            <img class="img-destination my-container" src="/asset/images/Booking/agadir-dakhla.png" alt="">
-                        </div>
-                        <div class="text-card-desc my-container">
-                            <h3>AGADIR - ADDAKHLA</h3>
-                            <p>Partez à la découverte des charmes
-                                de la perle du Sud Marocain à petit prix !
-                            </p>
-                        </div>
-                        <div class="date-available my-container">
-                            <p>24/10/2024</p>
-                            <button class="availbale-button my-container">Available</button>
-                        </div>
-                        <div class="booking-price my-container">
-                            <button class="button-filter my-container">Book Now</button>
-                            <p>560 DH</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- end-card-booking -->
-            </div>
+        <div class="footer__links-part">
+          <h3 class="footer__links-heading">Services</h3>
+          <ul>
+            <li class="footer__links-item">
+              <a href="./pages/services.html">Transportation</a>
+            </li>
+            <li>
+              <a href="./pages/services.html#features">Bus Features</a>
+            </li>
+          </ul>
         </div>
-    </section>
+      </div>
+    </div>
+    <div class="footer__content-bottom">
+      <div class="footer__social">
+        <ul class="social__list">
+          <li class="social__list-item">
+            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-square"></i></a>
+          </li>
+          <li class="social__list-item">
+            <a href="http://" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-instagram-square"></i></a>
+          </li>
+          <li class="social__list-item">
+            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter-square"></i></a>
+          </li>
+          <li class="social__list-item">
+            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__payement">
+        <ul class="payement__list">
+          <li class="payement__list-item">
+            <i class="fa-brands fa-cc-visa"></i>
+          </li>
 
-    <!-- <card-filter-section> -->
-
-    <!-- /* start Recently Added section */ -->
-    <section class="Recently-added-Offer my-container">
-        <div class="carts-Rao my-container">
-            <h2>Exclusive Offers Just for You</h2>
-            <!-- card-booking -->
-            <div class="div-card-final my-container">
-                <!-- card 1 -->
-                <div class="card-booking pricing-card my-container">
-                    <div class="img-card-booking my-container">
-                        <img class="img-destination my-container" src="/asset/images/Booking/agadir-dakhla.png" alt="">
-                    </div>
-                    <div class="text-card-desc my-container">
-                        <h3>AGADIR - ADDAKHLA</h3>
-                        <p>Partez à la découverte des charmes
-                            de la perle du Sud Marocain à petit prix !
-                        </p>
-                    </div>
-                    <div class="date-available my-container">
-                        <p>24/10/2024</p>
-                        <button class="availbale-button my-container">Available</button>
-                    </div>
-                    <div class="booking-price my-container">
-                        <button class="button-filter my-container">Book Now</button>
-                        <p>560 DH</p>
-                    </div>
-                </div>
-                <!-- card 2 -->
-                <div class="card-booking pricing-card my-container">
-                    <div class="img-card-booking my-container">
-                        <img class="img-destination my-container" src="/asset/images/Booking/agadir-dakhla.png" alt="">
-                    </div>
-                    <div class="text-card-desc my-container">
-                        <h3>AGADIR - ADDAKHLA</h3>
-                        <p>Partez à la découverte des charmes
-                            de la perle du Sud Marocain à petit prix !
-                        </p>
-                    </div>
-                    <div class="date-available my-container">
-                        <p>24/10/2024</p>
-                        <button class="availbale-button my-container">Available</button>
-                    </div>
-                    <div class="booking-price my-container">
-                        <button class="button-filter my-container">Book Now</button>
-                        <p>560 DH</p>
-                    </div>
-                </div>
-                <!-- card 2 -->
-                <div class="card-booking pricing-card my-container">
-                    <div class="img-card-booking my-container">
-                        <img class="img-destination my-container" src="/asset/images/Booking/agadir-dakhla.png" alt="">
-                    </div>
-                    <div class="text-card-desc my-container">
-                        <h3>AGADIR - ADDAKHLA</h3>
-                        <p>Partez à la découverte des charmes
-                            de la perle du Sud Marocain à petit prix !
-                        </p>
-                    </div>
-                    <div class="date-available my-container">
-                        <p>24/10/2024</p>
-                        <button class="availbale-button my-container">Available</button>
-                    </div>
-                    <div class="booking-price my-container">
-                        <button class="button-filter my-container">Book Now</button>
-                        <p>560 DH</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /* end Recently Added section */ -->
-
-    <!-- /* start Footer */ -->
-    <footer class="footer_content">
-        <div class="footer__content-top">
-          <div class="footer__newsletter center-col">
-            <div class="footer__newsletter-heading">
-              <h2>News Letter</h2>
-            </div>
-            <div class="footer__newsletter-desc">
-              <p>Subscribe to get latest offers, blog news from us</p>
-            </div>
-            <div class="footer__newsletter-input">
-              <form action="">
-                <input
-                  type="search"
-                  name="newsletter"
-                  id="newsletter"
-                  placeholder="Enter your email"
-                  required
-                />
-                <button type="submit">Send</button>
-              </form>
-            </div>
-          </div>
-          <div class="footer__links">
-            <div class="footer__links-part">
-              <h3 class="footer__links-heading">Contact</h3>
-              <ul>
-                <li class="footer__links-item">
-                  <a href="mailto:contact@supratours.ma"
-                    >contact@supratours.ma</a
-                  >
-                </li>
-                <li>
-                  <a href="tel:2255">call us: 2255</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer__links-part">
-              <h3 class="footer__links-heading">Services</h3>
-              <ul>
-                <li class="footer__links-item">
-                  <a href="./pages/services.html">Transportation</a>
-                </li>
-                <li>
-                  <a href="./pages/services.html#features">Bus Features</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="footer__content-bottom">
-          <div class="footer__social">
-            <ul class="social__list">
-              <li class="social__list-item">
-                <a href="http://" target="_blank" rel="noopener noreferrer"
-                  ><i class="fa-brands fa-facebook-square"></i
-                ></a>
-              </li>
-              <li class="social__list-item">
-                <a href="http://" target="_blank" rel="noopener noreferrer"
-                  ><i class="fa-brands fa-instagram-square"></i
-                ></a>
-              </li>
-              <li class="social__list-item">
-                <a href="http://" target="_blank" rel="noopener noreferrer"
-                  ><i class="fa-brands fa-twitter-square"></i
-                ></a>
-              </li>
-              <li class="social__list-item">
-                <a href="http://" target="_blank" rel="noopener noreferrer"
-                  ><i class="fa-brands fa-linkedin"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer__payement">
-            <ul class="payement__list">
-              <li class="payement__list-item">
-                <i class="fa-brands fa-cc-visa"></i>
-              </li>
-
-              <li class="payement__list-item">
-                <i class="fa-brands fa-cc-mastercard"></i>
-              </li>
-              <li class="payement__list-item">
-                <i class="fa-brands fa-cc-paypal"></i>
-              </li>
-              <li class="payement__list-item">
-                <i class="fa-brands fa-cc-apple-pay"></i>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer>
-    <!-- /* end Footer */ -->
+          <li class="payement__list-item">
+            <i class="fa-brands fa-cc-mastercard"></i>
+          </li>
+          <li class="payement__list-item">
+            <i class="fa-brands fa-cc-paypal"></i>
+          </li>
+          <li class="payement__list-item">
+            <i class="fa-brands fa-cc-apple-pay"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- /* end Footer */ -->
 
 
 </body>
