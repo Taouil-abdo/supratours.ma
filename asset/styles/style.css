@@ -11,6 +11,17 @@
     font-family: "Roboto", sans-serif;
     line-height: 1;
 }
+
+:root {
+    --font-base: 16px;
+    --padding : 5px;
+  }
+
+  .my-container * {
+    font-size: var(--font-base);
+    padding: var(--padding);
+  }
+
 html {
     font-size: 10px;
     scroll-behavior: smooth;
