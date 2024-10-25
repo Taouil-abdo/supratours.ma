@@ -2,7 +2,6 @@
 @import url("./normalize.css");
 @import url("./mixing.css");
 @import url("./variables.css");
-@import url("./about.css");
 @import url("./index.css");
 
 * {
@@ -10,11 +9,19 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    line-height: 1;
 }
 html {
     font-size: 10px;
     scroll-behavior: smooth;
 }
-body {
-    background-color: #B2B2B2;
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1400px;
+}
+@media (min-width: 900px) {
+    .container {
+        width: 86%;
+    }
 }

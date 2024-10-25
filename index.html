@@ -36,133 +36,135 @@
         </ul>
       </nav>
     </header>
+    <section class="hero_content">
+      <div class="hero__container">
+        <div class="hero__title">
+          <h1>Find Your route.</h1>
+          <h1>Travel Anywhere</h1>
+        </div>
+        <div class="hero__search">
+          <div class="hero__search-title">
+            <h2>I Buy My Ticket</h2>
+          </div>
+          <div class="hero__search-inputs">
+            <div class="hero__search-inputs-col">
+              <div class="search__input-row">
+                <label for="departure">My departure station</label>
+                <div class="input__row">
+                  <div class="input__row-icon">
+                    <i class="fa-regular fa-map"></i>
+                  </div>
+                  <select name="departure" id="departure">
+                    <option value disabled selected>
+                      My departure station
+                    </option>
+                    <option value="Laayoune">Laayoune</option>
+                    <option value="Agadir">Agadir</option>
+                    <option value="Dakhlah">Dakhlah</option>
+                    <option value="Rabat">Rabat</option>
+                    <option value="Casablanca">Casablanca</option>
+                    <option value="Marrakech">Marrakech</option>
+                    <option value="Tangier">Tangier</option>
+                  </select>
+                </div>
+              </div>
+              <div class="search__input-row">
+                <label for="arrival">My arrival station</label>
+                <div class="input__row">
+                  <div class="input__row-icon">
+                    <i class="fa-regular fa-map"></i>
+                  </div>
+                  <select name="arrival" id="arrival">
+                    <option value disabled selected>My arrival station</option>
+                    <option value="Laayoune">Laayoune</option>
+                    <option value="Agadir">Agadir</option>
+                    <option value="Dakhlah">Dakhlah</option>
+                    <option value="Rabat">Rabat</option>
+                    <option value="Casablanca">Casablanca</option>
+                    <option value="Marrakech">Marrakech</option>
+                    <option value="Tangier">Tangier</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="hero__search-inputs-col">
+              <div class="search__input-row">
+                <label for="departure_date">My departure date</label>
+                <div class="input__row">
+                  <div class="input__row-icon">
+                    <i class="fa-regular fa-calendar"></i>
+                  </div>
+                  <input
+                    type="date"
+                    name="departure_date"
+                    id="departure_date"
+                    placeholder="My departure date"
+                    class="no-calendar"
+                  />
+                </div>
+              </div>
+              <div class="search__input-row">
+                <label for="return_date">My return date</label>
+                <div class="input__row">
+                  <div class="input__row-icon">
+                    <i class="fa-regular fa-calendar"></i>
+                  </div>
+                  <input
+                    type="date"
+                    name="return_date"
+                    id="return_date"
+                    placeholder="My return date"
+                    class="no-calendar"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="hero__search-inputs-col">
+              <div class="search__input-row">
+                <label for="passengers">Passengers</label>
+                <div class="input__row">
+                  <div class="input__row-icon">
+                    <i class="fa-regular fa-user"></i>
+                  </div>
+                  <input
+                    type="text"
+                    name="passengers"
+                    id="passengers"
+                    placeholder="1 Adult"
+                  />
+                </div>
+              </div>
+              <div class="search__input-row">
+                <label for="arrival">Comfort</label>
+                <div class="input__row comfort">
+                  <div class="input__row-type">
+                    <span>first class</span>
+                  </div>
+                  <div class="input__row-type">
+                    <span>second class</span>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="hero_search-submit">
+              <i class="fa-solid fa-search"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <main class="main_content">
       <div class="container">
-        <section class="hero_content">
-          <div class="hero__title">
-            <h1>Find Your route. Travel Anywhere And Anytime</h1>
-          </div>
-          <div class="hero__search">
-            <div class="hero__search-title">
-              <h2>I Buy My Ticket</h2>
-            </div>
-            <div class="hero__search-inputs">
-              <div class="hero__search-inputs-col">
-                <div class="search__input-row">
-                  <label for="departure">My departure station</label>
-                  <div class="input__row">
-                    <div class="input__row-icon">
-                      <i class="fa-regular fa-map"></i>
-                    </div>
-                    <select name="departure" id="departure">
-                      <option value disabled selected>
-                        My departure station
-                      </option>
-                      <option value="Laayoune">Laayoune</option>
-                      <option value="Agadir">Agadir</option>
-                      <option value="Dakhlah">Dakhlah</option>
-                      <option value="Rabat">Rabat</option>
-                      <option value="Casablanca">Casablanca</option>
-                      <option value="Marrakech">Marrakech</option>
-                      <option value="Tangier">Tangier</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="search__input-row">
-                  <label for="arrival">My arrival station</label>
-                  <div class="input__row">
-                    <div class="input__row-icon">
-                      <i class="fa-regular fa-map"></i>
-                    </div>
-                    <select name="arrival" id="arrival">
-                      <option value disabled selected>
-                        My arrival station
-                      </option>
-                      <option value="Laayoune">Laayoune</option>
-                      <option value="Agadir">Agadir</option>
-                      <option value="Dakhlah">Dakhlah</option>
-                      <option value="Rabat">Rabat</option>
-                      <option value="Casablanca">Casablanca</option>
-                      <option value="Marrakech">Marrakech</option>
-                      <option value="Tangier">Tangier</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="hero__search-inputs-col">
-                <div class="search__input-row">
-                  <label for="departure_date">My departure date</label>
-                  <div class="input__row">
-                    <div class="input__row-icon">
-                      <i class="fa-regular fa-calendar"></i>
-                    </div>
-                    <input
-                      type="date"
-                      name="departure_date"
-                      id="departure_date"
-                      placeholder="My departure date"
-                    />
-                  </div>
-                </div>
-                <div class="search__input-row">
-                  <label for="return_date">My return date</label>
-                  <div class="input__row">
-                    <div class="input__row-icon">
-                      <i class="fa-regular fa-calendar"></i>
-                    </div>
-                    <input
-                      type="date"
-                      name="return_date"
-                      id="return_date"
-                      placeholder="My return date"
-                    />
-                  </div>
-                </div>
-                return_date
-              </div>
-              <div class="hero__search-inputs-col">
-                <div class="search__input-row">
-                  <label for="passengers">Passengers</label>
-                  <div class="input__row">
-                    <div class="input__row-icon">
-                      <i class="fa-regular fa-user"></i>
-                    </div>
-                    <input
-                      type="text"
-                      name="passengers"
-                      id="passengers"
-                      placeholder="My departure station"
-                    />
-                  </div>
-                </div>
-                <div class="search__input-row">
-                  <label for="arrival">My arrival station</label>
-                  <div class="input__row">
-                    <div class="input__row-type">
-                      <span>first class</span>
-                    </div>
-                    <div class="input__row-type">
-                      <span>second class</span>
-                    </div>
-                    <div class="input__row-type">
-                      <span>single bed</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="hero_search-submit">
-                <i class="fa-solid fa-search"></i>
-              </div>
-            </div>
-          </div>
-        </section>
         <section class="destinations_content">
-          <div class="destination__heading">
+          <div class="destination__heading center-col">
             <div class="destination__heading-title">
-              <h2>Trending Destinations</h2>
+              <h2 class="title">Trending Destinations</h2>
             </div>
             <div class="destination__heading-subtitle">
-              <p>Most popular choices for travellers from Morocco</p>
+              <p class="subtitle">
+                Most popular choices for travellers from Morocco
+              </p>
             </div>
           </div>
           <div class="destination__cities">
@@ -209,29 +211,29 @@
           </div>
         </section>
         <section class="how_content">
-          <div class="how__heading">
+          <div class="how__heading center-col">
             <div class="how__heading-title">
-              <h2>How It Works</h2>
+              <h2 class="title">How It Works</h2>
             </div>
             <div class="how__heading-subtitle">
-              <p>
+              <p class="subtitle">
                 Booking your journey has never been easier. Follow these simple
                 steps to plan your next trip.
               </p>
             </div>
-            <div class="how__cards">
+            <div class="how__cards grid-row">
               <div class="how__cards-card">
                 <div class="how__card-icon">
                   <i class="fa-solid fa-search"></i>
                 </div>
                 <div class="how__card-title">
                   <h3>Search Your Destination</h3>
-                  <div class="how__card-desc">
-                    <p>
-                      Enter your departure, destination, and travel dates in the
-                      search bar to explore available routes.
-                    </p>
-                  </div>
+                </div>
+                <div class="how__card-desc">
+                  <p>
+                    Enter your departure, destination, and travel dates in the
+                    search bar to explore available routes.
+                  </p>
                 </div>
               </div>
               <div class="how__cards-card">
@@ -240,12 +242,12 @@
                 </div>
                 <div class="how__card-title">
                   <h3>Select Your Trip</h3>
-                  <div class="how__card-desc">
-                    <p>
-                      Compare schedules, prices, and services, then choose the
-                      option that fits your needs.
-                    </p>
-                  </div>
+                </div>
+                <div class="how__card-desc">
+                  <p>
+                    Compare schedules, prices, and services, then choose the
+                    option that fits your needs.
+                  </p>
                 </div>
               </div>
               <div class="how__cards-card">
@@ -254,12 +256,12 @@
                 </div>
                 <div class="how__card-title">
                   <h3>Book and Pay</h3>
-                  <div class="how__card-desc">
-                    <p>
-                      Securely book your trip and pay online using your
-                      preferred payment method.
-                    </p>
-                  </div>
+                </div>
+                <div class="how__card-desc">
+                  <p>
+                    Securely book your trip and pay online using your preferred
+                    payment method.
+                  </p>
                 </div>
               </div>
             </div>
@@ -298,33 +300,16 @@
           </div>
           <div class="getApp__mockup">
             <div class="gitApp__mockup-img">
-              <img src="" alt="phones mockup" />
+              <img
+                src="./asset/images/mockups/phones.png"
+                alt="phones mockup"
+              />
             </div>
-          </div>
-        </section>
-        <section class="cta_content">
-          <div class="cta__details">
-            <div class="cta__details-title">
-              <h2>Get Our Mobile Application</h2>
-            </div>
-            <div class="cta__details-desc">
-              <p>
-                Manage your trips on the go! Book your journey, receive
-                real-time updates, and access exclusive app-only discounts—all
-                in one place.
-              </p>
-            </div>
-            <div class="cta__details-btn">
-              <a href="./pages/Booking.html">Get Started</a>
-            </div>
-          </div>
-          <div class="cta__pic">
-            <img src="" alt="" />
           </div>
         </section>
         <section class="faq_content">
-          <div class="faq__title">
-            <h2>FAQs</h2>
+          <div class="faq__title center-col">
+            <h2 class="title">FAQs</h2>
           </div>
           <div class="faq__cards">
             <div class="faq__cards-card">
@@ -342,6 +327,9 @@
                   </p>
                 </div>
               </div>
+              <div class="card__chevron">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
             </div>
             <div class="faq__cards-card">
               <div class="card__icon">
@@ -349,7 +337,7 @@
               </div>
               <div class="card__qcm">
                 <div class="card__qcm-question">
-                  <h3>How can I book a ticket?</h3>
+                  <h3>What is Supratours' baggage policy?</h3>
                 </div>
                 <div class="card__qcm-answer">
                   <p>
@@ -358,6 +346,9 @@
                   </p>
                 </div>
               </div>
+              <div class="card__chevron">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
             </div>
             <div class="faq__cards-card">
               <div class="card__icon">
@@ -365,7 +356,7 @@
               </div>
               <div class="card__qcm">
                 <div class="card__qcm-question">
-                  <h3>How can I book a ticket?</h3>
+                  <h3>How can I cancel or change my booking?</h3>
                 </div>
                 <div class="card__qcm-answer">
                   <p>
@@ -375,6 +366,9 @@
                   </p>
                 </div>
               </div>
+              <div class="card__chevron">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
             </div>
             <div class="faq__cards-card">
               <div class="card__icon">
@@ -382,7 +376,9 @@
               </div>
               <div class="card__qcm">
                 <div class="card__qcm-question">
-                  <h3></h3>
+                  <h3>
+                    Does Supratours offer any discounts for students or seniors?
+                  </h3>
                 </div>
                 <div class="card__qcm-answer">
                   <p>
@@ -391,6 +387,9 @@
                     eligibility criteria.
                   </p>
                 </div>
+              </div>
+              <div class="card__chevron">
+                <i class="fa-solid fa-chevron-down"></i>
               </div>
             </div>
             <div class="faq__cards-card">
@@ -408,6 +407,9 @@
                   </p>
                 </div>
               </div>
+              <div class="card__chevron">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
             </div>
             <div class="faq__cards-card">
               <div class="card__icon">
@@ -424,6 +426,9 @@
                   </p>
                 </div>
               </div>
+              <div class="card__chevron">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
             </div>
             <div class="faq__cards-card">
               <div class="card__icon">
@@ -439,6 +444,9 @@
                     department with details about the route and time of travel.
                   </p>
                 </div>
+              </div>
+              <div class="card__chevron">
+                <i class="fa-solid fa-chevron-down"></i>
               </div>
             </div>
             <div class="faq__cards-card">
@@ -459,17 +467,40 @@
                   </p>
                 </div>
               </div>
+              <div class="card__chevron">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
             </div>
           </div>
         </section>
+        <section class="cta_content">
+          <div class="cta__details">
+            <div class="cta__details-title">
+              <h2>Get Our Mobile Application</h2>
+            </div>
+            <div class="cta__details-desc">
+              <p>
+                Manage your trips on the go! Book your journey, receive
+                real-time updates, and access exclusive app-only discounts—all
+                in one place.
+              </p>
+            </div>
+            <div class="cta__details-btn">
+              <a href="./pages/Booking.html" class="button--secondary"
+                >Get Started</a
+              >
+            </div>
+          </div>
+        </section>
+
         <footer class="footer_content">
           <div class="footer__content-top">
-            <div class="footer__newsletter">
+            <div class="footer__newsletter center-col">
               <div class="footer__newsletter-heading">
                 <h2>News Letter</h2>
               </div>
               <div class="footer__newsletter-desc">
-                <p></p>
+                <p>Subscribe to get latest offers, blog news from us</p>
               </div>
               <div class="footer__newsletter-input">
                 <form action="">
@@ -494,7 +525,7 @@
                     >
                   </li>
                   <li>
-                    <a href="tel:2255">contact@supratours.ma</a>
+                    <a href="tel:2255">call us: 2255</a>
                   </li>
                 </ul>
               </div>
@@ -502,7 +533,7 @@
                 <h3 class="footer__links-heading">Services</h3>
                 <ul>
                   <li class="footer__links-item">
-                    <a href="./pages/services.html">contact@supratours.ma</a>
+                    <a href="./pages/services.html">Transportation</a>
                   </li>
                   <li>
                     <a href="./pages/services.html#features">Bus Features</a>
@@ -541,11 +572,12 @@
                 <li class="payement__list-item">
                   <i class="fa-brands fa-cc-visa"></i>
                 </li>
-                <li class="payement__list-item">
-                  <i class="fa-brands fa-cc-paypal"></i>
-                </li>
+
                 <li class="payement__list-item">
                   <i class="fa-brands fa-cc-mastercard"></i>
+                </li>
+                <li class="payement__list-item">
+                  <i class="fa-brands fa-cc-paypal"></i>
                 </li>
                 <li class="payement__list-item">
                   <i class="fa-brands fa-cc-apple-pay"></i>
@@ -556,9 +588,9 @@
         </footer>
       </div>
     </main>
-    <script>
+    <!-- <script>
       const today = new Date().toISOString().split("T")[0];
       document.getElementById("departure_date").value = today;
-    </script>
+    </script> -->
   </body>
 </html>

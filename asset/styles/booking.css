@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* hero-section */
+.hero-booking {
+    height: 90vh;
+}
+
+/* end-hero-section */
+.image {
+    background-image: url(/asset/images/Booking/pexels-jibarofoto-1494582.jpg);
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 96vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+/* controle les cart et le bar de filtrage */
+
+
+.filtrage-booking {
+
+    /* display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; */
+    background-color: #fffdfd;
+    padding: 10px;
+    width: 15em;
+    border: 1px solid #8080808f;
+    border-radius: 11px;
+
+}
+
+.filter-head {
+    display: flex;
+    gap: 6rem;
+    border-bottom: 1px solid gray;
+}
+
+.filter-objects,
+.filtrage-booking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label-input-book {
+    /* display: flex;
+            flex-direction: column;
+            align-items: start; */
+    border-top: 1px solid gray;
+    padding-top: 1rem;
+}
+
+.label-input-booking,
+.label-input-book {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.filter-input {
+    width: 15em;
+    height: 2.5em;
+    min-width: fit-content;
+    border: 1px solid gray;
+    border-radius: 11px;
+    margin-bottom: 1em;
+    background: #E9ECEF;
+}
+
+/* /// card - parte /// */
+.pricing-card {
+    background: rgb(252, 251, 251);
+    width: 15em;
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.date-available,
+.booking-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.availbale-button {
+
+    height: 1.5rem;
+    border: 1px;
+    border-radius: 7px;
+    background: #1AA039;
+    color: white;
+}
+
+.img-destination {
+    display: block;
+    width: 100vh;
+    max-width: -webkit-fill-available;
+}
+
+.select-card {
+    height: 2rem;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 2px;
+
+}
+
+.sortby-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8em;
+}
+
+.div-card-final {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.button-filter {
+    height: 2rem;
+    width: 6rem;
+    background: #1A4BA0;
+    border: none;
+    border-radius: 10px;
+    color: #fafbf9;
+}
+
+.cards-booking {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-booking {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.filter-objects-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carts-Rao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    margin-top: 3rem;
+}
+
+@media (max-width : 1023px) {
+    .filtrage-booking {
+        width: 70%;
+    }
+
+    .filter-head {
+        width: 90%;
+    }
+
+    .label-input-book {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin: 12px;
+    }
+}
