@@ -15,7 +15,8 @@
   background-image: url(../images/about/backround-phone-1.jpg);
   background-size: cover;
   margin: auto;
-  /* border-radius: 10px; */
+
+  
  }
 .slider-container {
   position: relative;
@@ -339,11 +340,7 @@ margin-top: 50px;
 }
 
 @media (min-width: 1024px) {
-  /* header {
-    width: 86%;
-  background-image: none;
-    background-image: url(../images/about/backround-1.jpg);
-  } */
+
   .cards-sec-1 {
     flex-direction: row;
 
@@ -551,7 +548,7 @@ margin-top: 50px;
   
     background-image: url(../images/about/backround-1.jpg);
   
-    /* border-radius: 10px; */
+    
    }
    .slider-container {
 
