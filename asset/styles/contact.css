@@ -1,8 +1,7 @@
 .contact-section {
     width: 100%;
     background-color: var(--blue);
-    border-radius: 4rem;
-    padding: 4rem;
+    padding: 6rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
     align-items: center;
@@ -24,7 +23,7 @@
   }
   
   .contact-info ul li {
-    line-height: 2;
+    line-height: 4;
     color: var(--white);
   }
   .contact-info ul li a {
@@ -53,7 +52,7 @@
     font-size: 2.6rem;
   }
   .contact-social ul li a i:hover {
-    color: var(--navy);
+    color: var(--dark);
   }
   
   .contact-inputs {
@@ -119,12 +118,20 @@
     /* CONTACT */
   
     .contact-section {
-      padding: 4rem 2rem;
-      border-radius: 2rem;
+      padding: 7rem 2rem;
       grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
     }
     .login-picture {
       display: none;
+    }
+    .contact-infos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-title-p {
+        text-align: center;
     }
   }
   
