@@ -15,27 +15,57 @@
 
 <body>
 
-  <header class="header_content">
+<header class="header_content">
     <div class="header__logo">
-      <img src="../asset/images/logo/logo.png" alt="logo" />
+        <img src="../asset/images/logo/logo.png" alt="logo" />
+    </div>
+    <div class="header__menu-overf">
+        <div class="header__menu">
+            <ul class="menu__list">
+                <li class="menu__list-item"><a href="./index.html">Home</a></li>
+                <li class="menu__list-item"><a href="../pages/about.html">About</a></li>
+                <li class="menu__list-item"><a href="../pages/Booking.html">Booking</a></li>
+                <li class="menu__list-item"><a href="../pages/services.html">Services</a></li>
+                <li class="menu__list-item"><a href="../pages/contact.html">Contact</a></li>
+                <li class="menu__list-item"><a href="../pages/blog.html">Blog</a></li>
+            </ul>
+        </div>
     </div>
     <nav class="navbar">
-      <ul class="navbar__list">
-        <li class="navbar__list-item">
-          <i class="fa-solid fa-globe"></i>
-        </li>
-        <li class="navbar__list-item">
-          <i class="fa-solid fa-cart-shopping"> </i>
-        </li>
-        <li class="navbar__list-item">
-          <i class="fa-solid fa-user"> </i>
-        </li>
-        <li class="navbar__list-item">
-          <i class="fa-solid fa-bars"></i>
-        </li>
-      </ul>
+        <ul class="navbar__list">
+            <li class="navbar__list-item globe">
+                <i class="fa-solid fa-globe"></i>
+                <div class="dropdown__menu">
+                    <ul class="dropdown__menu_list">
+                        <li class="dropdown__menu_list-item">
+                            EN
+                        </li>
+                        <li class="dropdown__menu_list-item">
+                            FR
+                        </li>
+                        <li class="dropdown__menu_list-item">
+                            ES
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="navbar__list-item">
+                <a href="../pages/cart.html" aria-label="link to page">
+                    <i class="fa-solid fa-cart-shopping"> </i>
+                </a>
+            </li>
+            <li class="navbar__list-item">
+                <a href="../pages/Login.html" aria-label="link to page">
+                    <i class="fa-solid fa-user"> </i>
+                </a>
+            </li>
+            <li class="navbar__list-item hamburger">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </li>
+        </ul>
     </nav>
-  </header>
+
+</header>
   <!-- <hero-search-section> -->
   <section class="hero-booking my-container">
     <div class="image ">
@@ -50,7 +80,7 @@
           <button class="button-filter my-container"><a href="BookingResult.html"> Book Now</a></button>
         </div>
       </div>
-      
+
     </div>
   </section>
   <!-- <end hero-search-section> -->
@@ -87,7 +117,7 @@
               </div>
               <div class="label-input-booking">
                 <label for="Price">Price</label>
-                <input type="range" class="filter-input my-container">
+                <input  id="Price" type="range" class="filter-input my-container">
               </div>
             </div>
           </div>
