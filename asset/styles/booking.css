@@ -16,6 +16,14 @@
     padding: 20px;
 }
 
+.text-hero-booking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(62, 61, 61, 0.8); 
+    border-radius: 8px; 
+}
 /* controle les cart et le bar de filtrage */
 
 
@@ -23,8 +31,9 @@
     background-color: #fffdfd;
     padding: 10px;
     width: 18em;
-    border: 1px solid #8080808f;
+    border: 1px solid #cacaca8f;
     border-radius: 11px;
+    box-shadow: var(--box-shadow);
 }
 
 .filter-head {
@@ -56,7 +65,7 @@
     width: 15em;
     height: 2.5em;
     min-width: fit-content;
-    border: 1px solid gray;
+    border: 1px solid rgb(227, 227, 227);
     border-radius: 11px;
     margin-bottom: 1em;
     background: #E9ECEF;
@@ -66,11 +75,9 @@
 .pricing-card {
     background: rgb(252, 251, 251);
     width: 17em;
-    border: 1px solid #c9c9c9;
     border-radius: 15px;
     margin-top: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-
+    box-shadow:var(--box-shadow);
 }
 
 
@@ -124,6 +131,9 @@
     background: var(--blue);
     border: none;
     border-radius: 10px;
+    color: #fafbf9;
+}
+.button-filter>a{
     color: #fafbf9;
 }
 
