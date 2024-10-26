@@ -6,7 +6,7 @@
 
 /* end-hero-section */
 .image {
-    background-image: url(/asset/images/Booking/bus-bg.jpg);
+    background-image: url(../images/Booking/bus-bg.jpg);
     background-repeat: no-repeat;
     height: 100%;
     display: flex;
@@ -104,9 +104,9 @@
 
 .select-card {
     height: 4rem;
-    border: 1px solid gray;
-    border-radius: 15px;
+    border: none;
     padding: 2px;
+    outline: none;
 
 }
 
@@ -114,7 +114,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 7em;
+    gap: 5em;
+    box-shadow:var(--box-shadow);
+    border-radius:10px ;
 }
 
 .div-card-final {
@@ -172,7 +174,7 @@
 
     height: 4rem;
     width: 4rem;
-    border: 1px solid gray;
+    border: 1px solid rgb(255, 252, 252);
     border-radius: 15px 0px 0px 15px;
 }
 
@@ -255,6 +257,9 @@
     align-items: center;
     gap: 30px;
 }
+.cart_section-icon svg {
+    width: 13rem !important;
+}
 
 .input {
     height: 7vh;
@@ -275,20 +280,24 @@
     align-items: center;
     gap: 30px;
 }
-
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+  }
 
 .panier-text-medil {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10rem;
+    gap: 2rem;
     align-items: center;
 
 }
 
 .footer-panier {
     display: flex;
-    gap: 24rem;
+    gap: 17rem;
     border-top: 1px solid;
     padding-top: 15px;
 }
@@ -419,7 +428,7 @@ hr {
 
     .footer-panier {
         display: flex;
-        gap: 6em;
+        gap: 22em;
         border-top: 1px solid;
         padding-top: 57px;
     }
@@ -490,6 +499,15 @@ hr {
     padding: 10px 15px;
   }
 
+  .select-card-booking{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 13rem;
+   border: 0.1px solid gainsboro;
+   border-radius: 10px ;
+   
+}
   @media (min-width: 600px) {
     .review-card {
       flex-direction: row;
@@ -504,4 +522,90 @@ hr {
     .review-card .review-text {
       padding: 0;
     }
+  }
+
+  /* use app */
+  .getApp_content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+    align-items: start;
+  }
+  .getApp__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .getApp__details-title {
+    margin-bottom: 3rem;
+  }
+  .getApp__details-title h2 {
+    font-size: var(--fz-xxxl);
+    text-align: center;
+    color: var(--blue);
+  }
+  .getApp__details-desc {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+  .getApp__details-desc p {
+    font-size: var(--fz-sm);
+    text-align: center;
+    color: var(--grey);
+  }
+  
+  .getApp__details-bottom {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .getApp__bottom-systems {
+    width: max-content;
+    height: 4rem;
+    background-color: var(--dark);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  .getApp__bottom-systems .bottom__system-logo {
+    padding-right: 1rem;
+  }
+  .getApp__bottom-systems .bottom__system-logo i {
+    color: var(--white);
+    font-size: var(--fz-xxl);
+  }
+  .getApp__bottom-systems:last-child .bottom__system-logo i {
+    color: var(--green);
+  }
+  .getApp__bottom-systems .bottom__system-name span {
+    color: var(--white);
+    font-size: var(--fz-sm);
+  }
+  .getApp__mockup {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .gitApp__mockup-img {
+    width: 100%;
+    background: linear-gradient(
+      130deg,
+      #1a4ba0,
+      #1a4ba0,
+      transparent,
+      transparent
+    );
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .gitApp__mockup-img img {
+    width: 80%;
+    height: 100%;
   }

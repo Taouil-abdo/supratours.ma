@@ -6,19 +6,25 @@
   font-family: "Roboto", sans-serif;
 }
 
-body {
-  width: 100%;
-}
 
 
 
+ .hero{
+  width: 86%;
+  height: 91vh;
+  background-image: url(../images/about/backround-phone-1.jpg);
+  background-size: cover;
+  margin: auto;
 
+  
+ }
 .slider-container {
   position: relative;
   width: 100%;
   max-width: 1000px;
   margin: auto;
   overflow: hidden;
+  margin-top: -100px;
 }
 .cards-sec-1 {
   display: flex;
@@ -29,7 +35,7 @@ body {
 
   position: relative;
   z-index: 1000;
-
+  
 }
 .card {
   width: 260px;
@@ -69,6 +75,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  margin: auto;
 }
 .prev,
 .next {
@@ -84,6 +91,8 @@ body {
   transition: 0.6s;
   border-radius: 50%;
   user-select: none;
+  margin-top: 10px;
+  
 }
 .section-2 {
   width: 90%;
@@ -336,7 +345,7 @@ margin-top: 50px;
     flex-direction: row;
 
     gap: 20px;
-    
+  
   }
   .card {
     width: 60%;
@@ -534,5 +543,41 @@ margin-top: 50px;
     font-weight: 300;
     padding-bottom: 20px;
     border-bottom: solid 3px rgba(50, 47, 47, 0.252);
+  }
+  .hero{
+  
+    background-image: url(../images/about/backround-1.jpg);
+  
+    
+   }
+   .slider-container {
+
+  
+  
+    margin-top: -100px;
+  }
+  .cards-sec-1 {
+  
+  
+    position: relative;
+    z-index: 1000;
+    
+  }
+  .card {
+    width: 20%;
+  
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #1a4ba0;
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: auto;
+    color: white;
+  
+  
   }
 }
