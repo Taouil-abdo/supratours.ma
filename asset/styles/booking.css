@@ -6,7 +6,7 @@
 
 /* end-hero-section */
 .image {
-    background-image: url(/asset/images/Booking/bus-bg.jpg);
+    background-image: url(../images/Booking/bus-bg.jpg);
     background-repeat: no-repeat;
     height: 100%;
     display: flex;
