@@ -11,6 +11,97 @@
     <script src="https://kit.fontawesome.com/f01941449c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../asset/styles/style.css" />
 
+
+    <style>
+        /* this is get our app section styles  */
+
+.getApp_content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+  align-items: start;
+}
+.getApp__details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.getApp__details-title {
+  margin-bottom: 3rem;
+}
+.getApp__details-title h2 {
+  font-size: var(--fz-xxxl);
+  text-align: center;
+  color: var(--blue);
+}
+.getApp__details-desc {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+.getApp__details-desc p {
+  font-size: var(--fz-sm);
+  text-align: center;
+  color: var(--grey);
+}
+
+.getApp__details-bottom {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.getApp__bottom-systems {
+  width: max-content;
+  height: 4rem;
+  background-color: var(--dark);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.getApp__bottom-systems .bottom__system-logo {
+  padding-right: 1rem;
+}
+.getApp__bottom-systems .bottom__system-logo i {
+  color: var(--white);
+  font-size: var(--fz-xxl);
+}
+.getApp__bottom-systems:last-child .bottom__system-logo i {
+  color: var(--green);
+}
+.getApp__bottom-systems .bottom__system-name span {
+  color: var(--white);
+  font-size: var(--fz-sm);
+}
+.getApp__mockup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.gitApp__mockup-img {
+  width: 100%;
+  background: linear-gradient(
+    130deg,
+    #1a4ba0,
+    #1a4ba0,
+    transparent,
+    transparent
+  );
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+.gitApp__mockup-img img {
+  width: 80%;
+  height: 100%;
+}
+
+    </style>
+
 </head>
 
 <body>
@@ -21,12 +112,12 @@
         <div class="header__menu-overf">
           <div class="header__menu">
             <ul class="menu__list">
-              <li class="menu__list-item"><a href="./index.html">Home</a></li>
-              <li class="menu__list-item"><a href="../pages/about.html">About</a></li>
-              <li class="menu__list-item"><a href="../pages/Booking.html">Booking</a></li>
-              <li class="menu__list-item"><a href="../pages/services.html">Services</a></li>
-              <li class="menu__list-item"><a href="../pages/contact.html">Contact</a></li>
-              <li class="menu__list-item"><a href="../pages/blog.html">Blog</a></li>
+              <li class="menu__list-item"><a href="../index.html">Home</a></li>
+              <li class="menu__list-item"><a href="about.html">About</a></li>
+              <li class="menu__list-item"><a href="Booking.html">Booking</a></li>
+              <li class="menu__list-item"><a href="services.html">Services</a></li>
+              <li class="menu__list-item"><a href="contact.html">Contact</a></li>
+              <li class="menu__list-item"><a href="blog.html">Blog</a></li>
             </ul>
           </div>
         </div>
@@ -174,7 +265,7 @@
         <div class="panier-booking">
             <div class="panier-right">
                 <div class="panier-booking" style="padding : 20px;height: 12rem;">
-                    <h2 style="font-size: 20px; color:beige">Mon Panier</h2>
+                    <h2 style="font-size: 20px; color:beige">My Cart</h2>
                 </div>
                 <div class="panier-text-medil">
                     <div class="img-panier">
@@ -221,11 +312,11 @@
                                 </path>
                             </svg>
                         </div>
-                        <p style="font-size: medium;">Mon panier est vide</p>
+                        <p style="font-size: medium;">My cart is empty</p>
                     </div>
 
                     <div class="footer-panier">
-                        <p style="font-size: medium;">Montant total à payer :</p>
+                        <p style="font-size: medium;">Total amount to pay:</p>
                         <p style="font-size: medium;">0 DH</p>
                     </div>
                 </div>
@@ -236,26 +327,26 @@
                 <div class="panier">
                     <div class="panier-header">
                         <h1 style="color: black;">BENGUERIR <span>> </span>BOUSKOURA</h1>
-                        <p style="color: #888;">Premiere Classe</p>
+                        <p style="color: #888;">First class</p>
                         <input class="input" type="text" placeholder="Mon nouveau trajet">
                     </div>
                     <div class="div-train">
                         <hr>
                         <div class="train">
                             <div class="train1">
-                                <p>Tous les bus</p>
+                                <p>All buses</p>
                             </div>
                             <div class="train1">
-                                <p>Bus directs</p>
+                                <p>Direct buses</p>
                             </div>
                             <div class="train1">
-                                <p>Bus avec correspondance</p>
+                                <p>Bus with connection</p>
                             </div>
                         </div>
                         <hr>
                         <div class="aller" style="border: 1px; ">
                             <h2 style="font-size: medium; padding-top: 20px;">
-                                Aller samedi, 26 octobre 2024
+                                Go Saturday, October 26, 2024
                             </h2>
                         </div>
                     </div>
@@ -311,6 +402,50 @@
             </div>
         </div>
     </section>
+    <main class="main_content">
+        <div class="container">
+    <section class="getApp_content">
+        <div class="getApp__details">
+          <div class="getApp__details-title">
+            <h2>Get Our Mobile Application</h2>
+          </div>
+          <div class="getApp__details-desc">
+            <p>
+              Manage your trips on the go! Book your journey, receive
+              real-time updates, and access exclusive app-only discounts—all
+              in one place.
+            </p>
+          </div>
+          <div class="getApp__details-bottom">
+            <div class="getApp__bottom-systems">
+              <div class="bottom__system-logo">
+                <i class="fa-brands fa-apple"></i>
+              </div>
+              <div class="bottom__system-name">
+                <span> App Store </span>
+              </div>
+            </div>
+            <div class="getApp__bottom-systems">
+              <div class="bottom__system-logo">
+                <i class="fa-brands fa-android"></i>
+              </div>
+              <div class="bottom__system-name">
+                <span> Google Play </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="getApp__mockup">
+          <div class="gitApp__mockup-img">
+            <img
+              src="../asset/images/mockups/phones.png"
+              alt="phones mockup"
+            />
+          </div>
+        </div>
+      </section>
+      </div>
+    </main>
 
     <!-- /* start Footer */ -->
     <footer class="footer_content">
@@ -396,6 +531,7 @@
         </div>
     </footer>
     <!-- /* end Footer */ -->
+    <script src="../asset/scripts/main.js"></script>
 </body>
 
 </html>
