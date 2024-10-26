@@ -9,6 +9,7 @@
     />
     <title>Supratours</title>
     <link rel="stylesheet" href="../asset/styles/style.css" />
+    <link rel="stylesheet" href="../asset/styles/login.css">
     <script
       src="https://kit.fontawesome.com/f01941449c.js"
       crossorigin="anonymous"
@@ -24,21 +25,21 @@
       <div class="header__menu-overf">
         <div class="header__menu">
           <ul class="menu__list">
-            <li class="menu__list-item"><a href="./index.html">Home</a></li>
+            <li class="menu__list-item"><a href="../index.html">Home</a></li>
             <li class="menu__list-item">
-              <a href="../pages/about.html">About</a>
+              <a href="about.html">About</a>
             </li>
             <li class="menu__list-item">
-              <a href="../pages/Booking.html">Booking</a>
+              <a href="Booking.html">Booking</a>
             </li>
             <li class="menu__list-item">
-              <a href="../pages/services.html">Services</a>
+              <a href="services.html">Services</a>
             </li>
             <li class="menu__list-item">
-              <a href="../pages/contact.html">Contact</a>
+              <a href="contact.html">Contact</a>
             </li>
             <li class="menu__list-item">
-              <a href="../pages/blog.html">Blog</a>
+              <a href="blog.html">Blog</a>
             </li>
           </ul>
         </div>
@@ -72,56 +73,154 @@
       </nav>
     </header>
     <main class="formulaire">
-      <div class="container">
-        <section class="form_content">
-          <div class="form__form">
-            <div class="form__form-title">
-              <h2>Log in</h2>
-            </div>
-            <div class="form__form-inputs">
-              <form action="">
-                <div class="form__input-card">
-                  <label for="form__email">E-mail</label>
-                  <div class="input__card-row">
-                    <input
-                      type="email"
-                      name="form__email"
-                      id="form__email"
-                      placeholder="example@gmail.com"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="form__input-card">
-                  <label for="form__password">Password</label>
-                  <div class="input__card-row">
-                    <input
-                      type="password"
-                      name="form__password"
-                      id="form__password"
-                      required
-                    />
-                    <span><i class="fa-solid fa-eye"></i></span>
-                  </div>
-                </div>
-                <div class="input__card-row inp__btn">
-                  <button type="submit">Log in</button>
-                </div>
-              </form>
-            </div>
-            <div class="form__register">
-              <p>
-                Don't have an account?
-                <a href="../pages/SingUp.html" class="register__signup"
-                  >Sign up</a
-                >
-              </p>
-            </div>
+      <div class="contain-er">
+       
+          <div class="form__form-title">
+            <h2>Log in</h2>
           </div>
-          <div class="form__bg"></div>
-        </section>
+          <div class="form__form-inputs">
+            <form>
+              <label for="form__email">E-mail</label>
+              <input
+                type="email"
+                name="form__email"
+                id="form__email"
+                placeholder="example@gmail.com"
+                required
+              />
+
+              <label for="form__password">Password</label>
+
+              <input
+                type="password"
+                name="form__password"
+                id="form__password"
+                placeholder="**********"
+                required
+              />
+              <i class="fa-solid fa-eye"></i>
+
+              <button type="submit">Sign in</button>
+            </form>
+        
+          <div class="form__register">
+            <p>
+              Don't have an account?
+              <a href="../pages/SingUp.html" class="register__signup"
+                >Create now</a>
+            </p>
+          </div>
+        </div>
+        <div class="form__bg"></div>
       </div>
     </main>
+    <footer class="footer_content">
+      <div class="footer__content-top">
+        <div class="footer__newsletter center-col">
+          <div class="footer__newsletter-heading">
+            <h2>News Letter</h2>
+          </div>
+          <div class="footer__newsletter-desc">
+            <p>Subscribe to get latest offers, blog news from us</p>
+          </div>
+          <div class="footer__newsletter-input">
+            <form action="">
+              <input
+                type="search"
+                name="newsletter"
+                id="newsletter"
+                placeholder="Enter your email"
+                required
+              />
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer__links">
+          <div class="footer__links-part">
+            <h3 class="footer__links-heading">Contact</h3>
+            <ul>
+              <li class="footer__links-item">
+                <a href="mailto:contact@supratours.ma">contact@supratours.ma</a>
+              </li>
+              <li>
+                <a href="tel:2255">call us: 2255</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__links-part">
+            <h3 class="footer__links-heading">Services</h3>
+            <ul>
+              <li class="footer__links-item">
+                <a href="./pages/services.html">Transportation</a>
+              </li>
+              <li>
+                <a href="./pages/services.html#features">Bus Features</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__content-bottom">
+        <div class="footer__social">
+          <ul class="social__list">
+            <li class="social__list-item">
+              <a
+                href="http://www.facebook.com"
+                target="_blank"
+                aria-label="faebook"
+                rel="noopener noreferrer"
+                ><i class="fa-brands fa-facebook-square"></i
+              ></a>
+            </li>
+            <li class="social__list-item">
+              <a
+                href="http://www.instagram.com"
+                target="_blank"
+                aria-label="instagram"
+                rel="noopener noreferrer"
+                ><i class="fa-brands fa-instagram-square"></i
+              ></a>
+            </li>
+            <li class="social__list-item">
+              <a
+                href="http://www.x.com"
+                target="_blank"
+                aria-label="x"
+                rel="noopener noreferrer"
+                ><i class="fa-brands fa-twitter-square"></i
+              ></a>
+            </li>
+            <li class="social__list-item">
+              <a
+                href="http://www.linkedin.com"
+                target="_blank"
+                aria-label="linkedin"
+                rel="noopener noreferrer"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__payement">
+          <ul class="payement__list">
+            <li class="payement__list-item">
+              <i class="fa-brands fa-cc-visa"></i>
+            </li>
+
+            <li class="payement__list-item">
+              <i class="fa-brands fa-cc-mastercard"></i>
+            </li>
+            <li class="payement__list-item">
+              <i class="fa-brands fa-cc-paypal"></i>
+            </li>
+            <li class="payement__list-item">
+              <i class="fa-brands fa-cc-apple-pay"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <script src="../asset/scripts/main.js"></script>
   </body>
 </html>
