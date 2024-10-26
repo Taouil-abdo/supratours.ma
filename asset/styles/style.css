@@ -3,6 +3,8 @@
 @import url("./mixing.css");
 @import url("./variables.css");
 @import url("./index.css");
+@import url("./cart.css");
+@import url("./form.css");
 
 * {
     padding: 0;
