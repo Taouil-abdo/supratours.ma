@@ -1,0 +1,22 @@
+.cart_section {
+    width: 100%;
+    height: 80svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cart_section-title {
+    margin-bottom: 2rem;
+}
+.cart_section-title h2 {
+    font-size: var(--fz-xxl);
+    color: var(--blue);
+}
+.cart_section-icon svg {
+    width: 30rem;
+}
+
+.cart_section-return {
+    margin-top: 2rem;
+}

@@ -1,8 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
 /* hero-section */
 .hero-booking {
@@ -11,38 +6,39 @@ body {
 
 /* end-hero-section */
 .image {
-    background-image: url(/asset/images/Booking/pexels-jibarofoto-1494582.jpg);
+    background-image: url(/asset/images/Booking/bus-bg.jpg);
     background-repeat: no-repeat;
-    height: 70%;
-    width: 96vw;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 16px;
+    padding: 20px;
 }
 
+.text-hero-booking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(62, 61, 61, 0.8); 
+    border-radius: 8px; 
+}
 /* controle les cart et le bar de filtrage */
 
 
 .filtrage-booking {
-
-    /* display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center; */
     background-color: #fffdfd;
     padding: 10px;
-    width: 15em;
-    border: 1px solid #8080808f;
+    width: 18em;
+    border: 1px solid #cacaca8f;
     border-radius: 11px;
-
+    box-shadow: var(--box-shadow);
 }
 
 .filter-head {
     display: flex;
     gap: 6rem;
-    border-bottom: 1px solid gray;
 }
 
 .filter-objects,
@@ -53,9 +49,6 @@ body {
 }
 
 .label-input-book {
-    /* display: flex;
-            flex-direction: column;
-            align-items: start; */
     border-top: 1px solid gray;
     padding-top: 1rem;
 }
@@ -72,7 +65,7 @@ body {
     width: 15em;
     height: 2.5em;
     min-width: fit-content;
-    border: 1px solid gray;
+    border: 1px solid rgb(227, 227, 227);
     border-radius: 11px;
     margin-bottom: 1em;
     background: #E9ECEF;
@@ -81,11 +74,12 @@ body {
 /* /// card - parte /// */
 .pricing-card {
     background: rgb(252, 251, 251);
-    width: 15em;
-    border: 1px solid #c9c9c9;
+    width: 17em;
     border-radius: 15px;
     margin-top: 20px;
+    box-shadow:var(--box-shadow);
 }
+
 
 .date-available,
 .booking-price {
@@ -95,11 +89,10 @@ body {
 }
 
 .availbale-button {
-
-    height: 1.5rem;
+    height: 3.5rem;
     border: 1px;
     border-radius: 7px;
-    background: #1AA039;
+    background: var(--green);
     color: white;
 }
 
@@ -110,7 +103,7 @@ body {
 }
 
 .select-card {
-    height: 2rem;
+    height: 4rem;
     border: 1px solid gray;
     border-radius: 15px;
     padding: 2px;
@@ -121,7 +114,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 8em;
+    gap: 7em;
 }
 
 .div-card-final {
@@ -133,11 +126,14 @@ body {
 }
 
 .button-filter {
-    height: 2rem;
-    width: 6rem;
-    background: #1A4BA0;
+    height: 4rem;
+    width: 10rem;
+    background: var(--blue);
     border: none;
     border-radius: 10px;
+    color: #fafbf9;
+}
+.button-filter>a{
     color: #fafbf9;
 }
 
@@ -168,15 +164,29 @@ body {
     align-items: center;
     gap: 3em;
     margin-top: 3rem;
+
 }
 
-@media (max-width : 1023px) {
+.button-grid,
+.button-grid2 {
+
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid gray;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.button-grid2 {
+    border-radius: 0px 15px 15px 0px;
+    -webkit-border-radius: 0px 15px 15px 0px;
+    -moz-border-radius: 0px 15px 15px 0px;
+    -ms-border-radius: 0px 15px 15px 0px;
+    -o-border-radius: 0px 15px 15px 0px;
+}
+
+@media (min-width : 768px) and (max-width : 1024px) {
     .filtrage-booking {
         width: 70%;
-    }
-
-    .filter-head {
-        width: 90%;
     }
 
     .label-input-book {
@@ -187,4 +197,311 @@ body {
         gap: 1rem;
         margin: 12px;
     }
+
+    .filter-head {
+        display: flex;
+        gap: 10rem;
+    }
+
+    .cards-booking {
+        align-items: baseline;
+    }
 }
+
+@media (min-width : 1025px) {
+    .sortby-card {
+        gap: 45vw;
+    }
+
+    .filter-head {
+        display: flex;
+        gap: 17rem;
+    }
+
+    h1 {
+        color: #030303;
+    }
+
+    .cards-booking {
+        align-items: baseline;
+    }
+}
+
+/* //////////////////  result-Booking */
+.panier-booking {
+    width: 100vw;
+    background: var(--blue);
+    color: beige;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.panier-right {
+    height: 35rem;
+}
+
+.section-panier {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.panier-header {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.input {
+    height: 7vh;
+    width: 30rem;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    background: gainsboro;
+    padding: 10px;
+
+}
+
+.train {
+    
+    padding-bottom: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.panier-text-medil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10rem;
+    align-items: center;
+
+}
+
+.footer-panier {
+    display: flex;
+    gap: 24rem;
+    border-top: 1px solid;
+    padding-top: 15px;
+}
+
+.img-panier {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ticket Container */
+
+
+.ticket {
+    max-width: 43rem;
+    height: 22em;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px dashed #555;
+    border-radius: 12px;
+    background: #f7f7f7;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Section */
+.ticket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.ticket-header h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.ticket-logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+/* Ticket Info Section */
+.ticket-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 15px 0;
+    color: #555;
+}
+
+.ticket-info div {
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket-info label {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.ticket-info span {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* QR Code Section */
+.ticket-qr {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 2px solid #ddd;
+}
+
+
+.barcode {
+    background: repeating-linear-gradient(90deg,
+            #333,
+            #333 5px,
+            #fff 5px,
+            #fff 10px);
+    height: 40px;
+    /* margin-top: 5px; */
+}
+
+.panier-booking h2 {
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+.img-panier {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ticket-qr img {
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.barcode {
+    margin-top: -13px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+hr {
+    border: 1px solid #333;
+    width: 80%;
+    margin: 20px auto;
+    opacity: 0.5;
+}
+
+@media (min-width:1024px) {
+    .buy-tecket-Booking {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        margin-bottom: 96px;
+    }
+
+    .footer-panier {
+        display: flex;
+        gap: 6em;
+        border-top: 1px solid;
+        padding-top: 57px;
+    }
+
+    .panier-booking {
+        width: 33%;
+        background: var(--blue);
+        color: beige;
+    }
+
+}
+
+/* review-section */
+    
+.review-section {
+    width: 50%;
+    max-width: 800px;
+    margin: 20px auto;
+    margin-top: 62px;
+    margin-bottom: 100px;
+  }
+
+  .review-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.8rem;
+  }
+
+  .review-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .review-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid #333;
+  }
+
+  .review-card .name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+  .review-card .stars {
+    color: #FFD700;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+
+  .review-card .review-text {
+    color: #666;
+    line-height: 1.5;
+    font-size: 0.95rem;
+    padding: 10px 15px;
+  }
+
+  @media (min-width: 600px) {
+    .review-card {
+      flex-direction: row;
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    .review-card img {
+      margin-right: 15px;
+    }
+
+    .review-card .review-text {
+      padding: 0;
+    }
+  }
