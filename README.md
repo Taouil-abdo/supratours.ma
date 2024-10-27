@@ -17,7 +17,7 @@
 ## Getting Started
 -----------------
 
-* Click the link below to access the live site and explore the content: https://taouil-abdo.github.io/Supratours.ma/
+* Click the link below to access the live site and explore the content: https://taouil-abdo.github.io/supratours.ma/
 
 ## Requirements
 -------------
