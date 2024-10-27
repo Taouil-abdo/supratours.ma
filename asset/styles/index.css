@@ -835,7 +835,7 @@
     height: 100%;
     object-position: top;
   }
-  .getApp_content {
+ .getApp_content {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
